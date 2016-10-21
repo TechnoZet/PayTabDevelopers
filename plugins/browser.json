@@ -1,0 +1,76 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "com.paytab.technozet"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.paytab.technozet"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "com.paytab.technozet"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.paytab.technozet"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "com.paytab.technozet"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.paytab.technozet"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "com.paytab.technozet"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "com.paytab.technozet"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.paytab.technozet"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.paytab.technozet"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.paytab.technozet"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.paytab.technozet"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.paytab.technozet"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "com.paytab.technozet"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.paytab.technozet"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.paytab.technozet"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.paytab.technozet"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "com.paytab.technozet"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.paytab.technozet"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.paytab.technozet"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.paytab.technozet"
+        }
+    }
+}
