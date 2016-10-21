@@ -33,6 +33,18 @@ angular.module('router.module',[]).config(function ($routeProvider) {
 			templateUrl: 'views/krutarthJoshiPage.html'
 
 		})
+		.when('/ritesh',
+		{
+			controller: 'riteshPatelController',
+			templateUrl: 'views/riteshPatelPage.html'
+
+		})
+		.when('/jaimil',
+		{
+			controller: 'jaimilShahController',
+			templateUrl: 'views/jaimilShahPage.html'
+
+		})
 		// if non of the above routes
 		// are matched we are setting router
 		// to redirect to the RootController

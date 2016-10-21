@@ -2,7 +2,9 @@ var PayTab = angular.module('PayTabDevelopers',['ngRoute',, 'homePageController.
 												'router.module',
 												'maulikParikhController.module',
 												'meetShahController.module',
-												'krutarthJoshiController.module']);
+												'krutarthJoshiController.module',
+												'riteshPatelController.module',
+												'jaimilShahController.module']);
 
 
 

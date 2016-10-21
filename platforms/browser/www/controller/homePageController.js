@@ -9,9 +9,17 @@ angular.module('homePageController.module',[]).controller('homePageController', 
 		{
 			$location.url("/meet");
 		}
-		else 
+		else if(val=='3')
 		{
 			$location.url("/krutarth");
 		}
+		else if(val=='4')
+		{
+			$location.url("/ritesh");
+		}
+		else
+			{
+				$location.url("/jaimil");
+			}
 	};
 }); 
