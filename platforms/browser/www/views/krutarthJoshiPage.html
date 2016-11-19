@@ -1,10 +1,18 @@
+<!DOCTYPE html>
 <html>
 <body>
-<h2>Welcome to PayTab</h2>
-<p>
-This is developer's Page designed for {{developerName}}
-Added trial commit
-Hello
-</p>
+  <h2>Welcome to PayTab</h2>
+  <p>
+  This is developer's Page designed for {{developerName}}
+  </p>
+  <!--Input field for jQuery Masked Money and Numeric keypad added-->
+  
+  <input type="tel"
+         pattern="[0-9]*"
+         id="demo1"
+         ng-model="demo1"
+         ng-change="test()"
+         placeholder="0.00"
+         maxlength="7" />
 </body>
 </html>

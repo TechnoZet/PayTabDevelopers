@@ -1,2 +1,11 @@
-PayTab developer notes 
+PayTab developer notes
 Report bugs important notes, links, tutorials, references in this txt file
+
+-----------------------------------------------------------------------------------------------
+//Krutarth Joshi
+11/19/2016:
+Added numeric keypad and jQuery Masked money input.
+Here is the github link of the used source: https://github.com/plentz/jquery-maskmoney
+
+
+-----------------------------------------------------------------------------------------------
