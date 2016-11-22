@@ -63,6 +63,12 @@
         },
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.paytab.technozet"
+        },
+        "cordova-plugin-image-picker": {
+            "PACKAGE_NAME": "com.paytab.technozet"
+        },
+        "cordova-plugin-touchid": {
+            "PACKAGE_NAME": "com.paytab.technozet"
         }
     },
     "dependent_plugins": {
