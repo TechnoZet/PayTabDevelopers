@@ -1,0 +1,23 @@
+<html>
+<body>
+<h2>Welcome to PayTab</h2>
+<p>
+This is developer's Page designed for {{developerName}}
+</p>
+<!--          Image  -->
+<button class="button" ng-click="selImages()">
+			Select Images
+</button>
+
+<p ng-repeat="img in images">
+	<img ng-src="{{img}}" />
+</p>
+
+
+<!--    google   -->
+<button class="button" ng-click="googleLogin()">
+			Google Signin
+</button>
+		   
+</body>
+</html>
