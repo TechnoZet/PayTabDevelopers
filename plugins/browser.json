@@ -69,9 +69,6 @@
         },
         "cordova-plugin-touchid": {
             "PACKAGE_NAME": "com.paytab.technozet"
-        },
-        "cordova-plugin-x-toast": {
-            "PACKAGE_NAME": "com.paytab.technozet"
         }
     },
     "dependent_plugins": {
