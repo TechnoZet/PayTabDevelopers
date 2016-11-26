@@ -18,6 +18,15 @@ This is developer's Page designed for {{developerName}}
 <button class="button" ng-click="googleLogin()">
 			Google Signin
 </button>
-		   
+
+<!-- Toast -->
+
+<button class="button" ng-click="showToast('testing the bottom', 'long', 'bottom')">Long Bottom</button>
+        <button class="button" ng-click="showToast('testing the top', 'short', 'top')">Short Top</button>
+        <button class="button" ng-click="showToast('this is a test', 'long', 'center')">Long Center</button>
+   
+<a ng-repeat="x in newimg">
+         <img   style="float:left;height: 200px;weight:200px;" src="data:image/gif;base64,{{x.imageUri}}" alt="Image There"></img> 
+
 </body>
 </html>
