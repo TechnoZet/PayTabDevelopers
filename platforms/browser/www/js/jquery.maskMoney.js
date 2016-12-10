@@ -1,3 +1,11 @@
+/*
+ *  jquery-maskmoney - v3.0.2
+ *  jQuery plugin to mask data entry in the input text in the form of money (currency)
+ *  https://github.com/plentz/jquery-maskmoney
+ *
+ *  Made by Diego Plentz
+ *  Under MIT License (https://raw.github.com/plentz/jquery-maskmoney/master/LICENSE)
+ */
 (function ($) {
     "use strict";
     if (!$.browser) {
@@ -20,8 +28,12 @@
 
         mask : function (value) {
             return this.each(function () {
-                var $this = $(this);
+                var $this = $(this),
+                    decimalSize;
                 if (typeof value === "number") {
+                    $this.trigger("mask");
+                    decimalSize = $($this.val().split(/\D/)).last()[0].length;
+                    value = value.toFixed(decimalSize);
                     $this.val(value);
                 }
                 return $this.trigger("mask");
@@ -49,8 +61,8 @@
             });
         },
 
-        init : function (parameters) {
-            parameters = $.extend({
+        init : function (settings) {
+            settings = $.extend({
                 prefix: "",
                 suffix: "",
                 affixesStay: true,
@@ -59,14 +71,13 @@
                 precision: 2,
                 allowZero: false,
                 allowNegative: false
-            }, parameters);
+            }, settings);
 
             return this.each(function () {
-                var $input = $(this), settings,
+                var $input = $(this),
                     onFocusValue;
 
                 // data-* api
-                settings = $.extend({}, parameters);
                 settings = $.extend(settings, $input.data());
 
                 function getInputSelection() {
@@ -180,7 +191,6 @@
                     return setSymbol(newValue);
                 }
 
-
                 function maskAndPosition(startPos) {
                     var originalLen = $input.val().length,
                         newLen;
@@ -192,9 +202,6 @@
 
                 function mask() {
                     var value = $input.val();
-                    if (settings.precision > 0 && value.indexOf(settings.decimal) < 0) {
-                        value += settings.decimal + new Array(settings.precision+1).join(0);
-                    }
                     $input.val(maskValue(value));
                 }
 
