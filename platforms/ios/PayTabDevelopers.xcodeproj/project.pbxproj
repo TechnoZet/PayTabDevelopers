@@ -34,6 +34,7 @@
 		8DE6076FD425476FA8958A87 /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC67CE8B2EF14074A25629DC /* Toast+UIView.m */; };
 		9282361622B9450D8C799064 /* Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 7750CA3E437642AAB8B43BFF /* Toast.m */; };
 		6A8440ABE9A04ABBAFAFFD19 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 138FE15A06644F52B462AE37 /* QuartzCore.framework */; };
+		E7EC6CC8FD4141E3ABD0AFF6 /* NativeSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5842BF77D1463FBB06CF2C /* NativeSettings.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +107,8 @@
 		E3FBC2BCD8C6491EA3AB2781 /* Toast+UIView.h */ = {isa = PBXFileReference; name = "Toast+UIView.h"; path = "cordova-plugin-x-toast/Toast+UIView.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		B1506C00F6E34AC9B21B8AE8 /* Toast.h */ = {isa = PBXFileReference; name = "Toast.h"; path = "cordova-plugin-x-toast/Toast.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		138FE15A06644F52B462AE37 /* QuartzCore.framework */ = {isa = PBXFileReference; name = "QuartzCore.framework"; path = "System/Library/Frameworks/QuartzCore.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		CC5842BF77D1463FBB06CF2C /* NativeSettings.m */ = {isa = PBXFileReference; name = "NativeSettings.m"; path = "com.phonegap.plugins.nativesettingsopener/NativeSettings.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		16AE87B8F674481BBAC68AEC /* NativeSettings.h */ = {isa = PBXFileReference; name = "NativeSettings.h"; path = "com.phonegap.plugins.nativesettingsopener/NativeSettings.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +245,8 @@
 				7750CA3E437642AAB8B43BFF /* Toast.m */,
 				E3FBC2BCD8C6491EA3AB2781 /* Toast+UIView.h */,
 				B1506C00F6E34AC9B21B8AE8 /* Toast.h */,
+				CC5842BF77D1463FBB06CF2C /* NativeSettings.m */,
+				16AE87B8F674481BBAC68AEC /* NativeSettings.h */,
 			);
 			name = Plugins;
 			path = "PayTabDevelopers/Plugins";
@@ -371,6 +376,7 @@
 				953076575FCD4B6BBD5272AB /* CDVFileTransfer.m in Sources */,
 				8DE6076FD425476FA8958A87 /* Toast+UIView.m in Sources */,
 				9282361622B9450D8C799064 /* Toast.m in Sources */,
+				E7EC6CC8FD4141E3ABD0AFF6 /* NativeSettings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

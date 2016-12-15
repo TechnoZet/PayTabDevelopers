@@ -12,6 +12,12 @@
                             "xml": "<string> </string>",
                             "count": 1
                         }
+                    ],
+                    "CFBundleURLTypes": [
+                        {
+                            "xml": "<array><dict><key>CFBundleTypeRole</key><string>Editor</string><key>CFBundleURLSchemes</key><array><string>prefs</string></array></dict></array>",
+                            "count": 1
+                        }
                     ]
                 }
             },
@@ -32,6 +38,10 @@
                         },
                         {
                             "xml": "<feature name=\"Toast\"><param name=\"ios-package\" value=\"Toast\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"NativeSettings\"><param name=\"ios-package\" value=\"NativeSettings\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -54,6 +64,9 @@
             "PACKAGE_NAME": "com.paytab.technozet"
         },
         "cordova-plugin-x-toast": {
+            "PACKAGE_NAME": "com.paytab.technozet"
+        },
+        "com.phonegap.plugins.nativesettingsopener": {
             "PACKAGE_NAME": "com.paytab.technozet"
         }
     },
@@ -268,6 +281,14 @@
             "id": "cordova-plugin-x-toast.tests",
             "file": "plugins/cordova-plugin-x-toast/test/tests.js",
             "pluginId": "cordova-plugin-x-toast"
+        },
+        {
+            "id": "com.phonegap.plugins.nativesettingsopener.Settings",
+            "file": "plugins/com.phonegap.plugins.nativesettingsopener/www/settings.js",
+            "pluginId": "com.phonegap.plugins.nativesettingsopener",
+            "clobbers": [
+                "cordova.plugins.settings"
+            ]
         }
     ],
     "plugin_metadata": {
@@ -275,6 +296,7 @@
         "cordova-plugin-compat": "1.0.0",
         "cordova-plugin-file": "4.3.0",
         "cordova-plugin-file-transfer": "1.5.1",
-        "cordova-plugin-x-toast": "2.5.2"
+        "cordova-plugin-x-toast": "2.5.2",
+        "com.phonegap.plugins.nativesettingsopener": "1.3"
     }
 }

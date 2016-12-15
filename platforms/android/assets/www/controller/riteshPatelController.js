@@ -170,6 +170,23 @@ angular.module('riteshPatelController.module',[]).controller('riteshPatelControl
  		*/
  		//----------------------------------------------------------------------------------------------------------
 
+ //-------------------------------open wifi settings------------------------
+
+ $scope.wifi = function(){
+ 	if (window.cordova && window.cordova.plugins.settings) {
+    console.log('openNativeSettingsTest is active');
+    window.cordova.plugins.settings.open("settings", function() {
+            console.log('opened settings');
+        },
+        function () {
+            console.log('failed to open settings');
+        }
+    );
+} else {
+    console.log('openNativeSettingsTest is not active!');
+}
+ }
+
  	//-------------------------------------Toast-----------------------------
 
 

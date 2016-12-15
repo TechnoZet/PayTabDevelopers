@@ -93,6 +93,9 @@
         },
         "cordova-plugin-x-toast": {
             "PACKAGE_NAME": "com.paytab.technozet"
+        },
+        "com.phonegap.plugins.nativesettingsopener": {
+            "PACKAGE_NAME": "com.paytab.technozet"
         }
     },
     "dependent_plugins": {},
@@ -728,6 +731,14 @@
             "file": "plugins/cordova-plugin-x-toast/test/tests.js",
             "id": "cordova-plugin-x-toast.tests",
             "pluginId": "cordova-plugin-x-toast"
+        },
+        {
+            "file": "plugins/com.phonegap.plugins.nativesettingsopener/www/settings.js",
+            "id": "com.phonegap.plugins.nativesettingsopener.Settings",
+            "pluginId": "com.phonegap.plugins.nativesettingsopener",
+            "clobbers": [
+                "cordova.plugins.settings"
+            ]
         }
     ],
     "plugin_metadata": {
@@ -754,6 +765,7 @@
         "cordova-plugin-whitelist": "1.2.2",
         "cordova-plugin-image-picker": "1.1.1",
         "cordova-plugin-touchid": "0.4.0",
-        "cordova-plugin-x-toast": "2.5.2"
+        "cordova-plugin-x-toast": "2.5.2",
+        "com.phonegap.plugins.nativesettingsopener": "1.3"
     }
 }
