@@ -18,7 +18,7 @@ document.addEventListener("deviceready", function ($cordovaNetwork) {
 			);
         }
         else{
-            alert("Connected to Network.");
+            //alert("Connected to Network.");
         }
     }
 
