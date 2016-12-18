@@ -35,6 +35,8 @@
 		9282361622B9450D8C799064 /* Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 7750CA3E437642AAB8B43BFF /* Toast.m */; };
 		6A8440ABE9A04ABBAFAFFD19 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 138FE15A06644F52B462AE37 /* QuartzCore.framework */; };
 		E7EC6CC8FD4141E3ABD0AFF6 /* NativeSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5842BF77D1463FBB06CF2C /* NativeSettings.m */; };
+		88E5954D4CB1489EB9BD03AB /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AC0C3B39CC40D6BDFB4D1D /* CDVSplashScreen.m */; };
+		6296964A55B34C7FA4CDBCFC /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 87759AF622EF445699EFAD1D /* CDVViewController+SplashScreen.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +111,10 @@
 		138FE15A06644F52B462AE37 /* QuartzCore.framework */ = {isa = PBXFileReference; name = "QuartzCore.framework"; path = "System/Library/Frameworks/QuartzCore.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 		CC5842BF77D1463FBB06CF2C /* NativeSettings.m */ = {isa = PBXFileReference; name = "NativeSettings.m"; path = "com.phonegap.plugins.nativesettingsopener/NativeSettings.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 		16AE87B8F674481BBAC68AEC /* NativeSettings.h */ = {isa = PBXFileReference; name = "NativeSettings.h"; path = "com.phonegap.plugins.nativesettingsopener/NativeSettings.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		00AC0C3B39CC40D6BDFB4D1D /* CDVSplashScreen.m */ = {isa = PBXFileReference; name = "CDVSplashScreen.m"; path = "cordova-plugin-splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		87759AF622EF445699EFAD1D /* CDVViewController+SplashScreen.m */ = {isa = PBXFileReference; name = "CDVViewController+SplashScreen.m"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		A88F754F4A044757A8DD7868 /* CDVSplashScreen.h */ = {isa = PBXFileReference; name = "CDVSplashScreen.h"; path = "cordova-plugin-splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		9B823A9ACA394C6BBBFB39A6 /* CDVViewController+SplashScreen.h */ = {isa = PBXFileReference; name = "CDVViewController+SplashScreen.h"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,6 +253,10 @@
 				B1506C00F6E34AC9B21B8AE8 /* Toast.h */,
 				CC5842BF77D1463FBB06CF2C /* NativeSettings.m */,
 				16AE87B8F674481BBAC68AEC /* NativeSettings.h */,
+				00AC0C3B39CC40D6BDFB4D1D /* CDVSplashScreen.m */,
+				87759AF622EF445699EFAD1D /* CDVViewController+SplashScreen.m */,
+				A88F754F4A044757A8DD7868 /* CDVSplashScreen.h */,
+				9B823A9ACA394C6BBBFB39A6 /* CDVViewController+SplashScreen.h */,
 			);
 			name = Plugins;
 			path = "PayTabDevelopers/Plugins";
@@ -377,6 +387,8 @@
 				8DE6076FD425476FA8958A87 /* Toast+UIView.m in Sources */,
 				9282361622B9450D8C799064 /* Toast.m in Sources */,
 				E7EC6CC8FD4141E3ABD0AFF6 /* NativeSettings.m in Sources */,
+				88E5954D4CB1489EB9BD03AB /* CDVSplashScreen.m in Sources */,
+				6296964A55B34C7FA4CDBCFC /* CDVViewController+SplashScreen.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

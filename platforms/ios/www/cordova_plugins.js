@@ -217,6 +217,14 @@ module.exports = [
         "clobbers": [
             "cordova.plugins.settings"
         ]
+    },
+    {
+        "id": "cordova-plugin-splashscreen.SplashScreen",
+        "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
+        "pluginId": "cordova-plugin-splashscreen",
+        "clobbers": [
+            "navigator.splashscreen"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -227,7 +235,8 @@ module.exports.metadata =
     "cordova-plugin-file": "4.3.0",
     "cordova-plugin-file-transfer": "1.5.1",
     "cordova-plugin-x-toast": "2.5.2",
-    "com.phonegap.plugins.nativesettingsopener": "1.3"
+    "com.phonegap.plugins.nativesettingsopener": "1.3",
+    "cordova-plugin-splashscreen": "3.2.2"
 };
 // BOTTOM OF METADATA
 });

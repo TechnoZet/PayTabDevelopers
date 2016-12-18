@@ -19,6 +19,9 @@
         },
         "com.phonegap.plugins.nativesettingsopener": {
             "PACKAGE_NAME": "com.paytab.technozet"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.paytab.technozet"
         }
     },
     "dependent_plugins": {
